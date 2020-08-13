@@ -15,9 +15,11 @@ header img:hover{
 }
 header button{
 	position: absolute;
-	top: 60px;
-	left: 0px;
-
+	top: 253px;
+	left: 5px;
+}
+button#donate {
+    font-weight: bold;
 }
 .btn:hover{
 	background-color: #5a7e90;
@@ -25,7 +27,11 @@ header button{
 
 .btn{
     border:2px solid #000000;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+.btn a{
+	text-decoration: none;
+	color: #000000;
 }
 .box-main{
 	display: flex;
@@ -41,13 +47,13 @@ header button{
 	font-family: 'Lemonada', cursive;
 }
 .secondhalf img{
-    width: 70%;
+    width: 85%;
     margin-left: 15%;
     border:2px solid #ffffff;
     border-radius: 20%;
     
 }
-.second, .third{
+.second, .third, .fourth{
 	width: 90%;
 	margin-left: 5%;
 	margin-top: 5%;
@@ -67,12 +73,12 @@ li{
 	font-size: 110%;
 }
 #footer{
-	background-color: #b6b6b6;
-	height: 280px;
+	background-color: #dc3545;
 }
 #footer h2{
 	text-align: center;
 	padding:2%;
+	text-decoration: underline;
 }
 .contact{
 	display: flex;
@@ -91,16 +97,44 @@ li{
 	margin-right: 5%;
 	text-align: center;
 }
-.name{
-	background-color:  #b6b6b6;
-	text-align: right;
+.instagram{
+	text-decoration: none;
+	color: black;
 }
-.name p{
-	margin-right: 3%;
+.name{
+	display: inline-block;
+	float: right;
+	margin-right: 2%;
+}
+.fab{
+	margin-left: 2%;
 }
 @media screen and (max-width: 700px){
        .secondhalf img{
        	width: 90%;
        }
   
+}
+
+@media screen and (max-width: 420px){
+	    #footer{
+	    	height: 15em;
+	    	width: 95%;
+	    	margin-left: 8px;
+
+	    }
+	    #footer h2, #footer h4, #footer p{
+	    	font-size: 70%;
+	    }
+	    .name{
+	    	width: 95%;
+	    	margin-left: 8px;
+	    }
+	    h1{
+	    	font-size: 150%;
+	    }
+	    h3{
+	    	font-size: 130%;
+	    }
+
 }
