@@ -13,13 +13,20 @@ header img:hover{
 	-webkit-filter:none;
 	filter: none;
 }
-header button{
+
+
+.firstbtn{
+	font-weight: bold;
 	position: absolute;
-	top: 253px;
+	top: 260px;
 	left: 5px;
+	border:2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
 }
-button#donate {
-    font-weight: bold;
+
+.firstbtn:hover{
+	background-color: #5a7e90;
 }
 .btn:hover{
 	background-color: #5a7e90;
@@ -29,7 +36,7 @@ button#donate {
     border:2px solid #000000;
     border-radius: 10px;
 }
-.btn a{
+.btn a, .firstbtn a{
 	text-decoration: none;
 	color: #000000;
 }
@@ -136,5 +143,15 @@ li{
 	    h3{
 	    	font-size: 130%;
 	    }
+	    .firstbtn{
+	         display: none;
 
+        }
+
+	   
+}
+@media screen and (max-width:451px){
+	#footer h2, #footer h4, #footer p{
+	    	font-size: 80%;
+	    }
 }
