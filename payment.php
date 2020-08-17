@@ -20,7 +20,7 @@ try {
         "phone"=>$Phone,
         "send_sms" => true,
         "allow_repeated_payments" =>false,
-        "redirect_url" => "https://abhisheksharma09890.github.io/suicide-prevention//redirect.php"
+        "redirect_url" => "https://suicide-prevention-7.000webhostapp.com///redirect.php"
         ));
     //print_r($response);
     $pay_url=$response['longurl'];

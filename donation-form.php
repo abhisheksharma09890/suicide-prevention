@@ -19,7 +19,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <input type="Email" class="form-control"  name="Email" maxlength="25" size="12"  autocomplete="off" tabindex="3" placeholder="Email" required >
+                    <input type="Email" class="form-control"  name="Email" maxlength="30" size="12"  autocomplete="off" tabindex="3" placeholder="Email" required >
                 </div>
                 <div class="form-group">
                     <input type="number" class="form-control" name="phone" autocomplete="off" tabindex="5"  placeholder="Phone Number" required>
