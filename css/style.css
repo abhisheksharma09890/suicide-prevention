@@ -19,10 +19,11 @@ header img:hover{
 	font-weight: bold;
 	position: absolute;
 	top: 260px;
-	left: 5px;
+	left: 10px;
 	border:2px solid #000000;
     border-radius: 10px;
     background-color: transparent;
+    padding: 10px;
 }
 
 .firstbtn:hover{
