@@ -54,6 +54,22 @@ header img:hover{
 	font-weight: bold;
 	font-family: 'Lemonada', cursive;
 }
+.carouselheading{
+	margin-top: 5rem;
+}
+.carouselheading h2{
+	text-align: center;
+}
+#carouselExampleCaptions{
+	width: 90%;
+	margin-left: 3rem;
+}
+#carouselExampleCaptions h5{
+    font-size: 180%;
+}
+#carouselExampleCaptions p {
+	font-size: 150%;
+}
 .secondhalf img{
     width: 85%;
     margin-left: 15%;
@@ -81,7 +97,8 @@ li{
 	font-size: 110%;
 }
 #footer{
-	background-color: #dc3545;
+	background-color: #1f2961;
+	color: #ffffff;
 }
 #footer h2{
 	text-align: center;
@@ -92,6 +109,7 @@ li{
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	flex-basis: 50%;
 }
 .firstcontact{
 	margin-right: 5%;
@@ -105,18 +123,28 @@ li{
 	margin-right: 5%;
 	text-align: center;
 }
-.instagram{
+.contactme h4{
+	text-align: center;
+
+}
+.instagram, .linkedIn, .github{
 	text-decoration: none;
-	color: black;
+	color: #ffffff;
 }
 .name{
-	display: inline-block;
-	float: right;
-	margin-right: 2%;
+	color: #9a8787;
+	text-align: center;
 }
 .fab{
-	margin-left: 2%;
+	margin-top: 3%;
+	margin-left: 24%;
+	margin-bottom: 3%;
+
 }
+hr{
+	background-color: #ffffff;
+}
+
 @media screen and (max-width: 700px){
        .secondhalf img{
        	width: 90%;
@@ -155,4 +183,16 @@ li{
 	#footer h2, #footer h4, #footer p{
 	    	font-size: 80%;
 	    }
+	.fab{
+		margin-left: 19%;
+	}
+}
+@media screen and (max-width:690px){
+	.fab{
+		margin-left: 20%;
+	}
+	#carouselExampleCaptions{
+		margin-left: 2rem;
+	}
+	
 }
